@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  
+    background-color: rgb(28, 69, 71)
+}
+
+h1{
+  font-weight: bolder;
+}
+.container{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.input-container{
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container input{
+  border: none;
+  outline: none;
+  padding: 12px;
+  margin-block: 12px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.input-container input[type="text"]{
+  width: 70%;
+}
+.input-container input[type="button"]{
+  background-color: teal;
+  color: white;
+  font-weight: 800;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 12px 30px;
+}
+
+.input-container input[type="button"]:active{
+  scale: 0.95;
+}
+
+ul{
+  width: 100%;
+  max-width: 450px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+ul li{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style-type: none ;
+  cursor: pointer;
+  margin: 12px;
+  border-radius: 5px; 
+  padding: 6px 12px ;
+  background-color: white;
+  border: 0.125px solid #9fa1a1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.5s;
+}
+
+ul li:hover{
+  background-color: rgb(234, 236, 236);
+}
+ul li p{
+  flex-grow: 1;
+  padding: 2px;
+}
+
+.btn{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: none;
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 9px 12px;
+
+}
+.btn:active{
+  scale: 0.95;
+}
+
+.deleteButton{
+  color: rgb(220, 20, 60);
+}
+
+.editButton{
+  color: rgb(0, 128, 0);
+}
